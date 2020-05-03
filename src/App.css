@@ -23,6 +23,7 @@ body {
 main {
   color: var(--baseColor);
   background: var(--baseBackground);
+  min-height: 100vh;
 }
 div[class$="grid"] {
   display: grid;
