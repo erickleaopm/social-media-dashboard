@@ -6,7 +6,7 @@ cache:
     - ~/.npm
 
 node_js:
-  - '12'
+  - "12"
 
 git:
   depth: 3
@@ -18,8 +18,8 @@ notifications:
   email:
     recipients:
       - erick.leao.perez@gmail.com
-      on_success: always
-      on_failure: always
+    on_success: always
+    on_failure: always
 
 deploy:
   provider: pages
